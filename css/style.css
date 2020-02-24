@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-size: 16px;
+  font-size: 12px;
   color: #5f6368;
 }
 .first {
@@ -19,7 +19,7 @@ img {
 p {
   display: inline;
   padding: 0 10px;
-  font-size: 28px;
+  font-size: 14px;
   font-weight: bold;
   vertical-align: middle;
 }
@@ -49,10 +49,18 @@ ul li {
   padding: 0 10px;
   font-weight: bold;
 }
-ul li a {
+.left ul li a {
   text-decoration: none;
   padding-bottom: 5px;
   border-bottom: 3px solid blue;
   font-size: 20px;
   color: blue;
+}
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+.wrapper li h1 {
+  font-weight: bold;
+  margin: 50px 0;
 }
