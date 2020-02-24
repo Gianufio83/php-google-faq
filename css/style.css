@@ -16,8 +16,8 @@ body {
 img {
   vertical-align: middle;
 }
-p {
-  display: inline;
+span {
+  /* display: inline; */
   padding: 0 10px;
   font-size: 14px;
   font-weight: bold;
@@ -63,4 +63,7 @@ ul li {
 .wrapper li h1 {
   font-weight: bold;
   margin: 50px 0;
+}
+p {
+  margin-bottom: 10px;
 }
